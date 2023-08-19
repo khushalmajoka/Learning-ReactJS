@@ -1,4 +1,4 @@
-export default function colorGenerator() {
+export default function colorGeneratorUtility() {
   let str = "0123456789abcdef";
   let color = "";
   for (let i = 0; i < 6; i++) {

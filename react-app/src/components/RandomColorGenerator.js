@@ -1,5 +1,5 @@
 import React from 'react'
-import colorGenerator from '../utility/colorGenerator';
+import colorGenerator from '../utility/colorGeneratorUtility';
 
 const RandomColorGenerator = () => {
   const color = colorGenerator();

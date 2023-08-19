@@ -1,19 +1,22 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-const RoutingButton = ( { routingFor } ) => {
+const RoutingButton = ( { routingFor, working } ) => {
+
+  const backgroundColor = working ? '#f72828' : '#2899f7';
+
   return (
     <Link to={`/${routingFor.split(" ").join("")}`}>
       <button
         style={{
           border: "none",
-          padding: "10px",
+          padding: "10px 12px",
           fontSize: "20px",
           fontFamily: "Bricolage Grotesque",
           color: "white",
           margin: "10px",
           borderRadius: "10px",
-          backgroundColor: "#4299E1",
+          backgroundColor: backgroundColor,
           cursor: "pointer",
         }}
       >
@@ -47,7 +50,7 @@ const Home = () => {
         }}
       >
         <RoutingButton routingFor="Click Click Click"/>
-        <RoutingButton routingFor="Event Form"/>
+        <RoutingButton routingFor="Event Form" working={true}/>
         <RoutingButton routingFor="Image and Newsletter"/>
         <RoutingButton routingFor="Odd Even Prime"/>
         <RoutingButton routingFor="Random Color Generator"/>
@@ -55,6 +58,8 @@ const Home = () => {
         <RoutingButton routingFor="Random Color Pallete 2"/>
         <RoutingButton routingFor="User Card"/>
         <RoutingButton routingFor="World Population"/>
+        <RoutingButton routingFor="Custom Form"/>
+        <RoutingButton routingFor="Tic Tac Toe" working={true}/>
       </div>
     </div>
   );

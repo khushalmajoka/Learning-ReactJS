@@ -3,7 +3,7 @@ import React from "react";
 
 const ImageAndNewsletter = () => {
   return (
-    <div style={{ textAlign: "center", height: "100vh", background: "pink", display: "flex", flexDirection: "column"}}>
+    <div style={{ textAlign: "center", height: "100vh", display: "flex", flexDirection: "column"}}>
       <img src={frontend_image} alt="frontend" width="100%" />
       <div
         className="form"

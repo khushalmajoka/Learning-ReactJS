@@ -7,4 +7,7 @@ export { default as RandomColorPallete1 } from './RandomColorPallete1';
 export { default as RandomColorPallete2 } from './RandomColorPallete2';
 export { default as UserCard } from './UserCard';
 export { default as WorldPopulation } from './WorldPopulation';
+export { default as CustomForm } from './CustomForm';
 export { default as Home } from '../Home';
+export { default as PageNotFound } from './PageNotFound';
+export { default as TicTacToe } from './TicTacToe';

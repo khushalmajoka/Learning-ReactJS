@@ -11,6 +11,9 @@ import {
   RandomColorPallete2,
   UserCard,
   WorldPopulation,
+  CustomForm,
+  PageNotFound,
+  TicTacToe
 } from "./components";
 
 const App = () => {
@@ -38,6 +41,9 @@ const App = () => {
       />
       <Route exact path="/UserCard" Component={UserCard} />
       <Route exact path="/WorldPopulation" Component={WorldPopulation} />
+      <Route exact path="/CustomForm" Component={CustomForm} />
+      <Route exact path="*" Component={PageNotFound} />
+      <Route exact path="/TicTacToe" Component={TicTacToe} />
     </Routes>
   );
 };
