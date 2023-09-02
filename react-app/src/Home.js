@@ -59,7 +59,7 @@ const Home = () => {
         <RoutingButton routingFor="User Card"/>
         <RoutingButton routingFor="World Population"/>
         <RoutingButton routingFor="Custom Form"/>
-        <RoutingButton routingFor="Tic Tac Toe" working={true}/>
+        <RoutingButton routingFor="Tic Tac Toe"/>
       </div>
     </div>
   );
