@@ -10,4 +10,4 @@ export { default as WorldPopulation } from './WorldPopulation';
 export { default as CustomForm } from './CustomForm';
 export { default as Home } from '../Home';
 export { default as PageNotFound } from './PageNotFound';
-export { default as TicTacToe } from './TicTacToe';
+export { default as TicTacToe } from './TicTacToe/TicTacToe';
